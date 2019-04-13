@@ -47,3 +47,5 @@ gcc常见参数
     头文件不在系统默认目录下，就需要通过-I指定路径，比如头文件放在
     /myinclude路径下，那么编译参数为-I/myinclude，否则就会得到一个
     "***.h: No such file or directory"
+
+补充说明：通过ldd命令可查看可执行程序依赖的库文件路径
